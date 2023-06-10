@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&family=Poppins&family=Sacramento&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&family=Montserrat:wght@400;800;900&family=Poppins&family=Sacramento&family=Ubuntu:wght@300&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#title {
+    background-color: #ff4c68;
+    /* height: 90vh; */
+}
+
+#headline {
+    color: #fff;
+    font-size: 4rem;
+    line-height: 1.5;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+#title .container-fluid {
+    padding: 3% 15% ;
+}
+
+.navbar {
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+button {
+    margin: 5% 3% 5% 0%;
+}
+
+#phone {
+    transform: rotate(25deg);
+    width: 22%;
+    position: absolute;
+    z-index: 1;
+    right: 18%;
+    /* top: 21%; */
+}
+
+.nav-item {
+    padding: 0 18px;
+
+}
+#features{
+    z-index: 3;
+    background-color: white;
+    position: relative;
+    padding-top: 3rem;
+}
+.nav-link {
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
+
+#features .row {
+    text-align: center;
+}
+
+#features .row i {
+    font-size: 5rem;
+    color: #ef8172;
+}
+
+#features .row i:hover {
+    color: #ff4c68;
+}
+
+#features .row h3 {
+    font-weight: bold;
+}
+
+#features .row p {
+    color: #8f8f8f;
+    line-height: 1.5;
+    font-size: 1.1rem;
+}
+
+#features .row .col-lg-4 {
+    padding-right: 2rem;
+    margin-top: 3rem;
+}
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+   
+    
+}
+#testimonials img{
+    width: 5rem;
+    border-radius: 50%;
+    margin: 1rem;
+}
+#testimonials h2{
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+#testimonials em{
+    font-weight: 500;
+}
+.promo-logo{
+    width: 14rem;
+    margin: 0rem 2rem 1rem 0;
+    
+}
+#press{
+    background-color: #ef8172;
+}
+.carousel-item{
+ padding: 7% 15%;
+}
+.width-block{
+    width: 100%;
+}
+#pricing{
+    padding: 8rem;
+    text-align: center;
+}
+.pricing-card{
+    padding: 3rem 1rem;
+}
+#pricing h2{
+    font-weight: 700;
+    font-size: 3rem;
+}
+#pricing p{
+    color: #8f8f8f;
+}
+#pricing .row .card-header h3{
+    font-weight: 300 ;
+}
+#footer{
+    text-align: center;
+    padding: 5%;
+}
+
+@media  (max-width:1000px) {
+    #title{
+        text-align: center;
+    }
+    #phone{
+        position: static;
+        transform: rotate(0deg);
+        height: 25rem;
+        width: 15rem;
+    }
+}
+#cta{
+    padding: 4%;
+    background-color: #ff4c68;
+    text-align: center;
+}
+#cta h3{
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: #fff;
+    line-height: 1.5;
+}
+#social-icon{font-size: 2rem;}
